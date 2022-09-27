@@ -1,0 +1,48 @@
+.wrapper__reg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  form {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "login login login"
+    "password password password"
+    "passwordR passwordR signin";
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .login {
+    grid-area: login;
+  }
+  
+  .password {
+    grid-area: password;
+  }
+  
+  .password--repeat {
+    grid-area: passwordR;
+  }
+  
+  form input {
+    padding: 5px;
+    background: #eee;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  form button {
+    padding: 5px 7px;
+    border-radius: 5px;
+    background: #8DF35D;
+    cursor: pointer;
+  }
+  
+  main a {
+    color: #000;
+  }
+}

@@ -1,0 +1,16 @@
+.wrapper__home {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .leave {
+    background: #FF3737;
+    padding: 5px 7px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+  }
+}
