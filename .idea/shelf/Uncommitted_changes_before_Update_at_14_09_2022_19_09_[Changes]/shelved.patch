@@ -1,0 +1,9 @@
+Index: 123.txt
+===================================================================
+diff --git a/123.txt b/123.txt
+deleted file mode 100644
+--- a/123.txt	(revision d2a75330c15658dc2d82d8c81f16262138a6c7fe)
++++ /dev/null	(revision d2a75330c15658dc2d82d8c81f16262138a6c7fe)
+@@ -1,1 +0,0 @@
+-кто прочитал тот
+\ No newline at end of file
